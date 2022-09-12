@@ -1,0 +1,12 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "build": "echo 'built'",
+    "test": "node ./tests/dummy.js"
+  },
+  "author": "Hyacinth",
+  "license": "MIT"
+}
