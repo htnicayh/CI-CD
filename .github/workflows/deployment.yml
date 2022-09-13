@@ -1,4 +1,4 @@
-name: Deploy
+name: Deployment
 
 on:
   push:
@@ -18,5 +18,5 @@ jobs:
           npm run test
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
+          BRANCH: checkout
           FOLDER: .
